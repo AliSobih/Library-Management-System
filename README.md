@@ -15,6 +15,16 @@
  - Borrowing endpoints:
    - POST `/api/borrow/{bookId}/patron/{patronId}`: Allow a patron to borrow a book.
    - PUT `/api/return/{bookId}/patron/{patronId}`: Record the return of a borrowed book by a patron.
+  
+ ## Technologies:
+- Java 17 or above
+- Spring Boot 3.0
+- Maven
+- MySQL
+- Spring Data JPA
+- Spring Security
+- JSON Web Tokens (JWT)
+- AOP
 ## how to use this project: 
   1- register and take Token to access other APIs:
   -  POST `/api/auth/register` - Add a new user details.
